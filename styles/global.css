@@ -1,0 +1,257 @@
+body{
+	font-family: 'Oxygen', sans-serif;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.clear{
+	clear: both;
+}
+/*--------*/
+
+header{
+	background: #fff;
+	padding: 6px 0 4px 0;
+}
+nav{
+	position: relative;
+}
+nav #fb{
+    display:block;
+    position:absolute;
+    width:25px;
+    height:24px;
+    overflow:hidden;
+    background: url(../images/sprite.png)0 0;
+    top: 10px;
+    right: 90px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+nav #fb:hover{
+	width:25px;
+    height:24px;
+    overflow:hidden;
+    background: url(../images/hoversprite.png)0 0;
+    top: 10px;
+    right: 90px;
+}
+nav #tw{
+    display:block;
+    position:absolute;
+    width:25px;
+    height:24px;
+    overflow:hidden;
+    background: url(../images/sprite.png)-30px 0;
+    top: 10px;
+    right: 60px;
+    -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+nav #tw:hover{
+	width:25px;
+    height:24px;
+    overflow:hidden;
+    background: url(../images/hoversprite.png)-30px 0;
+    top: 10px;
+    right: 60px;
+}
+nav #pi{
+    display:block;
+    position:absolute;
+    width:25px;
+    height:24px;
+    overflow:hidden;
+    background: url(../images/sprite.png)-60px 0;
+    top: 10px;
+    right: 30px;
+    -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+nav #pi:hover{
+	width:25px;
+    height:24px;
+    overflow:hidden;
+    background: url(../images/hoversprite.png)-60px 0;
+    top: 10px;
+    right: 30px;
+}
+nav #gp{
+    display:block;
+    position:absolute;
+    width:25px;
+    height:24px;
+    overflow:hidden;
+    background: url(../images/sprite.png)-90px 0;
+    top: 10px;
+    right: 0px;
+    -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+nav #gp:hover{
+	width:25px;
+    height:24px;
+    overflow:hidden;
+    background: url(../images/hoversprite.png)-90px 0;
+    top: 10px;
+    right: 0px;
+}
+nav ul li{
+	float: left;
+	margin:0 0 0 25px;
+	line-height: 46px;
+}
+nav ul li:first-child{
+	margin-left: 0;
+}
+nav ul li a{
+	font-size: 14px;
+	color: #ec171f;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+nav ul li a:hover{
+	color: #f88388;
+}
+
+/*--*/
+.banner{
+	background: url(../images/banner.jpg) no-repeat center center;
+	height: 545px;
+	width: 100%
+}
+.banner h1{
+	font-size: 44px;
+	color: #fff;
+	font-weight: 400;
+	margin: 0;
+	padding-top: 440px;
+}
+.banner h5{
+	font-size: 22px;
+	color: #fff;
+	font-weight: 400;
+	margin: 0;
+}
+/*--*/
+.tasks{
+	background: #ff0000;
+	padding: 19px 0;
+}
+.tasks ul li{
+	margin-bottom: 0;
+}
+
+.tasks ul li a{
+	font-weight: 400;
+	font-size: 22px;
+	width: 176px;
+	border: 2px solid #ffffff;
+	display: block;
+	border-radius: 5px;
+	color: #fff;
+	padding: 17px 20px 17px 20px;
+	line-height: 22px;
+}
+ .tasks ul li a:hover{
+	background: #f55050;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+ }
+.tasks ul li a img{
+    float: right;
+}
+/*--*/
+.whatHappen{
+	padding-bottom:70px;
+}
+.whatHappen h1{
+	font-size: 40px;
+	font-weight: 400;
+	color: #ff0000;
+	margin: 0;
+	padding: 65px 0 10px 0;
+}
+.whatHappen .detailBox{
+	background: #140e04;
+	height: 320px;
+}
+.whatHappen .detailBox img{
+	width: 100%;
+}
+.whatHappen .detailBox h6,h5,p{
+	color: #fff;
+}
+.whatHappen .detailBox h6{
+	font-size: 11px;
+	margin:4px 0 5px 15px;
+}
+.whatHappen .detailBox h5{
+	font-size: 18px;
+	font-weight: 400;
+	margin:0 0 7px 15px;
+}
+.whatHappen .detailBox p{
+	font-size: 14px;
+	margin: 0 0 0 15px;
+}
+/*--*/
+.footerBann{
+	background: #444444;
+	padding: 30px 0 130px 0;
+}
+.footerBann h5{
+	font-size:14px;
+	font-weight: 400;
+	color: #b2b2b2;
+	text-transform: uppercase;
+}
+.footerBann ul li{
+	font-size:14px;
+	color: #b2b2b2;
+}
+.footerBann .wrappo{
+	border-bottom: 1px solid #535353;
+	height:350px;
+	margin-bottom: 15px;
+}
+.footerBann .footerNav ul{
+	margin: 0 auto;
+	width: 700px;
+}
+.footerBann .footerNav ul li{
+	list-style: none;
+	float: left;
+	border-left: 1px solid #fff;
+	margin-right: 20px;
+	padding-left: 20px;
+}
+.footerBann .footerNav ul li:first-child{
+	border-left: 0;
+	padding-left: 0;
+}
+.footerBann .footerNav ul li a{
+	font-size:12px;
+	font-weight:400 ;
+	color:#fff;
+	text-transform: uppercase;
+	line-height: 15px;
+}
+.footerBann .footerNav p{
+	font-size:14px ;
+	color: #aaaaaa;
+	text-align: center;
+	margin: 0;
+}
