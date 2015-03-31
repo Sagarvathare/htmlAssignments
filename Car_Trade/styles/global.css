@@ -1,0 +1,327 @@
+body{
+	font-family: 'Oswald', sans-serif;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.clear{
+	clear: both;
+}
+.floRight{
+	float: right;
+}
+.floLeft{
+	float: left;
+}
+header{
+	padding: 4px 0;
+	position: relative;
+	-webkit-box-shadow: 0px 3px 6px -2px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0px 3px 6px -2px rgba(0,0,0,0.25);
+	box-shadow: 0px 3px 6px -2px rgba(0,0,0,0.25);
+}
+header .searchBox{
+	background: gray;
+}
+header input[type="search"]{
+	border-radius: 0;
+	margin-bottom: 0;
+	width: 84%;
+	height: 24px;
+}
+header .searchBox a img{
+	padding: 7px;
+}
+header ul {
+	padding-top: 6px;
+}
+header ul li {
+	float: left;
+	margin-left: 15px;
+}
+header ul li:first-child{
+	margin-left: 0;
+}
+header .logIn li{
+	border-right: 1px solid #cccccc;
+	padding-right: 19px;
+	margin-left: 19px;
+}
+header .logIn li:first-child{
+	border-left: 1px solid #cccccc;
+	padding-left: 19px;
+}
+header .logIn li a{
+	font-size: 13px;
+	color: #004466;
+	font-weight: 400;
+}
+header .logIn li a:hover{
+	text-decoration: none;
+}
+header .logIn li a img{
+	padding-left: 5px;
+}
+/*--*/
+.headBanner{
+	padding: 10px 0;
+}
+.headBanner .logo{
+	padding-top: 23px;
+}
+/*--*/
+nav{
+	background: #232323;
+	padding: 8px 0;
+}
+nav ul li{
+	float: left;
+	border-left: 1px solid #000000;
+	margin-right: 20px;
+	padding-left: 20px;
+}
+nav ul li:first-child{
+	padding-left: 0;
+	border-left: 0;
+}
+nav ul li a{
+	font-size: 16px;
+	color: #fff;
+	text-transform: uppercase;
+	line-height: 28px;
+	display: block;
+}
+nav ul li a:hover{
+	text-decoration: none;
+	color: #fff;
+}
+nav ul li:first-child a img{
+	padding: 0;
+}
+nav ul li a img{
+	padding: 0 0 4px 4px;
+}
+/*--*/
+.cars {
+	padding: 15px 0 20px 0;
+	border-bottom: 1px solid #ececec;
+}
+.cars .findCars{
+	width: 320px;
+	padding: 14px 14px 30px 14px;
+	background: #fffbee;
+	border: 1px solid #ddaaaa;
+	border-radius: 5px;
+	height: auto;
+	-webkit-box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.30);
+	-moz-box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.30);
+	box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.30);
+	float: left;
+}
+.cars .findCars h5{
+	font-size: 18px;
+	color: #333333;
+	text-transform: uppercase;
+	margin: 0 0 5px 0;
+	font-weight: 400;
+}
+.cars .findCars p{
+	font-size: 12px;
+	line-height: 16px;
+	color: #666666;
+}
+.cars .findCars select{
+	width: 137px;
+	height: 30px;
+	border-radius: 0;
+	margin-bottom: 0;
+	float: left;
+	margin-right: 8px;
+}
+.cars .findCars a{
+	display: block;
+	height: 30px;
+	width: 30px;
+	text-align: center;
+	color: #fff;
+	line-height: 30px;
+	background: #727272;
+	float: left;
+}
+.cars .findCars a:hover{
+	text-decoration: none;
+	color: #a0a0a0;
+}
+.cars .findCars h4{
+	font-size: 12px;
+	color: #333333;
+	font-weight: 700;
+	margin: 30px 0 10px 0;
+	display: block;
+	float: left;
+}
+.cars .findCars h6{
+	font-size: 12px;
+	color: #666666;
+	font-weight: 400;
+	margin: 30px 0 10px 0;
+	display: block;
+	float: right;
+}
+.cars .findCars img{
+	width: 87%;
+	margin-right: 10px;
+}
+/*  --*/
+.cars .carPrices{
+	width: 230px;
+	padding: 6px 14px 14px 14px;
+	background: #fffbee;
+	border: 1px solid #ddaaaa;
+	border-radius: 5px;
+	height: auto;
+	-webkit-box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.30);
+	-moz-box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.30);
+	box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.30);
+	float: left;
+	margin-left: 20px;
+}
+.cars .carPrices h5{
+	font-size: 18px;
+	color: #333333;
+	text-transform: uppercase;
+	margin: 0 0 5px 0;
+	font-weight: 400;
+}
+.cars .carPrices .newCar{
+	padding: 9px 15px;
+	border: 1px solid #bbbbbb;
+	border-radius: 4px;
+	margin-top: 7px;
+	background: #f0f9ff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f0f9ff 0%, #ddf2ff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f0f9ff), color-stop(100%,#ddf2ff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f0f9ff 0%,#ddf2ff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f0f9ff 0%,#ddf2ff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f0f9ff 0%,#ddf2ff 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f0f9ff 0%,#ddf2ff 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#ddf2ff',GradientType=0 ); /* IE6-9 */
+
+}
+.cars .carPrices .newCar p{
+	font-size: 15px;
+	line-height: 16px;
+	color: #004466;
+	font-weight: 700;
+	margin-bottom: 0;
+	float: left;
+	width: 161px;
+}
+.cars .carPrices .newCar p span{
+	color: #df3030;
+}
+.cars .carPrices .newCar img {
+	margin-top: 5px;
+}
+/**/
+.cars .sellCity{
+	width: 260px;
+	padding: 14px 14px 14px 14px;
+	background: #fffbee;
+	border: 1px solid #ddaaaa;
+	border-radius: 5px;
+	height: auto;
+	-webkit-box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.30);
+	-moz-box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.30);
+	box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.30);
+	float: left;
+	margin-left: 20px;
+}
+.cars .sellCity h5{
+	font-size: 18px;
+	color: #333333;
+	text-transform: uppercase;
+	margin: 0 0 5px 0;
+	font-weight: 400;
+}
+
+.cars .sellCity select{
+	width: 100%;
+	margin:0;
+	height: 30px;
+}
+/*--*/
+.cars .findUsedCar{
+	width: 320px;
+	padding: 14px;
+	background: #fffbee;
+	border: 1px solid #ddaaaa;
+	border-radius: 5px;
+	height: auto;
+	-webkit-box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.30);
+	-moz-box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.30);
+	box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.30);
+	float: left;
+	margin-top: 10px;
+}
+.cars .findUsedCar h5{
+	font-size: 18px;
+	color: #333333;
+	text-transform: uppercase;
+	margin: 0 0 5px 0;
+	font-weight: 400;
+}
+.cars .findUsedCar p{
+	font-size: 12px;
+	line-height: 16px;
+	color: #666666;
+}
+.cars .findUsedCar select{
+	width: 100%;
+	margin:0;
+	height: 30px;
+}
+/*--*/
+.cars .twoBt{
+	width: 260px;
+	float: left;
+	margin:0px 0 0 20px;
+}
+.cars .twoBt .ask{
+	display: block;
+	border: 1px solid #dddddd;
+	padding: 4px 14px;
+	border-radius: 4px;
+	-webkit-box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.30);
+	-moz-box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.30);
+	box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.30);
+	margin-top: 10px;
+}
+.cars .twoBt .ask h6{
+	font-size: 13px;
+	margin:0;
+	color: #004466;
+	font-weight: 600;
+	display: block;
+	  width: 100px;
+  float: left;
+}
+.cars .twoBt .ask p{
+	font-size: 11px;
+	margin:0;
+	color: #666666;
+	display: inline-block;
+}
+
+.toyota{
+	width: 290px;
+	margin-left: 20px;
+	float: left;
+}
